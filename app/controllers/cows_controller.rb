@@ -1,10 +1,11 @@
 class CowsController < ApplicationController
   def index
-    @cows = Cow.all
+    @cows = Cow.first(4)
+    @color = "danger"
     render :index
   end
   def show
-    @cow = Cow.find_by(id: params[:id])
+    @cow = Cow.all.sample
     render :show
   end
   def new    

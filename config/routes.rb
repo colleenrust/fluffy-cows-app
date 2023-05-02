@@ -1,4 +1,3 @@
 Rails.application.routes.draw do
-  get "/cows" => "cows#index"
-  get "/cows/:id" => "cows#show"
+  resources :cows
 end
