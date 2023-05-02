@@ -1,7 +1,7 @@
 class CowsController < ApplicationController
   def index
     @cows = Cow.first(4)
-    @color = "danger"
+    @color= ["warning", "success","primary", "danger"]
     render :index
   end
   def show

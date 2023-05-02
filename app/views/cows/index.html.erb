@@ -1,13 +1,14 @@
 
 <div class="container">
 
-<center><h1>Pick a button for a special surprise</h1></center>
+<center><h1>Pick a button, any button!!</h1></center>
 <body style="background-color:aquamarine;" >
-<% @cows.each do |cow|%>
 <center>
-<button type="button" class="btn btn-<%=@color %> form-control btn-lg"><a href= "/cows/<%=cow.id%>"> Surprise...</a></button>
+<button type="button" class="btn btn-form-control btn-lg"><a href="/cows/1" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Pick Me!</a>
+<button type="button" class="btn btn-form-control btn-lg"><a href="/cows/1" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Pick Me!</a>
+<button type="button" class="btn btn-form-control btn-lg"><a href="/cows/1" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Pick Me!</a>
+<button type="button" class="btn btn-form-control btn-lg"><a href="/cows/1" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Pick Me!</a>
 </center>
 </p>
-<% end %>
 </div>
 </div>
