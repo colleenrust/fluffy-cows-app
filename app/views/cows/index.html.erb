@@ -1,0 +1,11 @@
+<center><h1>Pick a button for a special surprise</h1></center>
+
+<% @cows.each do |cow|%>
+<center><button type="button" class="btn btn-outline-primary"><a href= "/cows/<%=cow.id%>"> Show one cow</a></button>
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-outline-warning">Warning</button></center>
+
+
+
+<% end %>
