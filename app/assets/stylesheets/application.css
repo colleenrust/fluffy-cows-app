@@ -1,6 +1,14 @@
 .btn {
-  height: 500px;
+  height: 550px;
   /* set the height of the button */
-  width: 500px;
+  width: 260px;
   /* set the width of the button */
+  text-align: center;
+  font-size: 120px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: coral;
 }
