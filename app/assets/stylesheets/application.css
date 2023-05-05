@@ -12,3 +12,14 @@ h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: coral;
 }
+
+.btn-info {
+  height: max-content;
+  width: max-content;
+  text-align: center;
+}
+
+.img-fluid {
+  height: 25%;
+  width: 25%;
+}
